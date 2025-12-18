@@ -1,4 +1,8 @@
+// pass 100%
+// problem url https://usaco.org/index.php?page=viewproblem2&cpid=891
+
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 int N;
@@ -6,9 +10,15 @@ const int maxn = 105;
 struct step {
     int a, b, g;
 };
-step steps[105];
+step steps[maxn];
 
 int main() {
+    freopen("shell.in", "r", stdin);
+    freopen("shell.out", "w", stdout);
+
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     // input
     cin >> N;
     for (int i = 0; i < N; i++) {
