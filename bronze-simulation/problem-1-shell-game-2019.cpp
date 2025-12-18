@@ -1,4 +1,4 @@
-// pass 100%
+// pass
 // problem url https://usaco.org/index.php?page=viewproblem2&cpid=891
 
 #include <iostream>
