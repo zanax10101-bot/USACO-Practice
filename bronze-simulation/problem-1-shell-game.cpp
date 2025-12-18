@@ -32,5 +32,6 @@ int main() {
         }
         ans = max(ans, tempans);
     }
+    cout << ans << endl;
     return 0;
 }

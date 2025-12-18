@@ -1,0 +1,55 @@
+# ---- C++ build artifacts ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Common build folders
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Debug / profiling
+*.dSYM/
+*.pdb
+*.idb
+*.profraw
+*.gcda
+*.gcno
+*.gcov
+
+# ---- Editors / IDEs ----
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+# ---- OS / misc ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Local scratch ----
+*.tmp
+*.swp
+*~
+
+# ---- Repo-specific outputs (USACO practice) ----
+# Ignore compiled executables that match the source basename.
+bronze-simulation/problem-*
+!bronze-simulation/problem-*.cpp
