@@ -53,3 +53,21 @@ Thumbs.db
 # Ignore compiled executables that match the source basename.
 bronze-simulation/problem-*
 !bronze-simulation/problem-*.cpp
+
+# Ignore all files in these directories
+kattis/*
+luogu/*
+
+# ...but do NOT ignore the source code or subdirectories
+!kattis/
+!kattis/*.cpp
+!kattis/*.py
+!luogu/
+!luogu/*.cpp
+
+# Ignore specific extensionless executables if they are in the root (optional)
+# *
+# !*/
+# !*.cpp
+# !*.md
+# !.gitignore
