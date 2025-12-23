@@ -57,6 +57,7 @@ bronze-simulation/problem-*
 # Ignore all files in these directories
 kattis/*
 luogu/*
+cses/*
 
 # ...but do NOT ignore the source code or subdirectories
 !kattis/
@@ -64,6 +65,7 @@ luogu/*
 !kattis/*.py
 !luogu/
 !luogu/*.cpp
+!cses/*.cpp
 
 # Ignore specific extensionless executables if they are in the root (optional)
 # *
